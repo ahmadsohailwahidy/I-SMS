@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment variables (API keys, secrets, database passwords)
+.env
+.env.local
+
+# Build and cache folders
+dist/
+build/
+.cache/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db

@@ -1,14 +1,20 @@
- * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
- }
+:root {
+  --bg-top: #f7f7f7;
+  --bg-bottom: #eeeeee;
+}
 
- body{
-    margin:0;
-    max-height: 100vh;
-    background-attachment: fixed;
-    background-image: linear-gradient(to bottom,#F7F7F7 ,#EEEEEE);
- }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
- 
+body {
+  min-height: 100dvh;
+  background: linear-gradient(to bottom, var(--bg-top), var(--bg-bottom)) fixed;
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
